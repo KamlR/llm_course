@@ -1,0 +1,10 @@
+{
+  "experiment_name": "batch_size_16_lr_1e4",
+  "best_eval_loss": 5.001699924468994,
+  "best_eval_step": 2501,
+  "best_checkpoint": "checkpoint-2501",
+  "final_eval_loss": 5.001699924468994,
+  "evaluated_model": "лучший сохранённый checkpoint `checkpoint-2501`",
+  "optimizer_steps": 2501,
+  "train_runtime_seconds": 963.4587
+}

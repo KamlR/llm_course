@@ -1,0 +1,43 @@
+# Local environment, caches and technical checks.
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.cache/
+.runtime/
+/checks/
+/logs/
+/smoke_check.py
+/batch_probe.py
+
+# Generated datasets, model weights, checkpoints and transfer archives.
+/output_dir/
+checkpoint-*/
+*.safetensors
+*.pt
+*.bin
+*.parquet
+*.arrow
+*.log
+*.tar
+*.tar.gz
+*.zip
+
+# Publish only the report and its linked artifacts from each experiment.
+# Add an exception here when a report links to a new artifact.
+/experiments/*/*
+!/experiments/*/report.md
+!/experiments/*/loss.png
+!/experiments/*/results.json
+!/experiments/*/eval_results.json
+!/experiments/*/train_results.json
+!/experiments/*/trainer_state.json
+!/experiments/*/generations.txt
+!/experiments/*/generations.json
+!/experiments/*/run_timing.json
+!/experiments/*/your_solution.py
+!/experiments/*/Dockerfile
+
+# Only experiment 4 links to this storage note.
+!/experiments/batch_size_16_lr_1e4_20261004T125019_788406Z/storage_note.json

@@ -1,0 +1,10 @@
+{
+  "experiment_name": "baseline",
+  "best_eval_loss": 6.942568778991699,
+  "best_eval_step": 1500,
+  "best_checkpoint": "checkpoint-1500",
+  "final_eval_loss": 6.942568778991699,
+  "evaluated_model": "лучший сохранённый checkpoint `checkpoint-1500`",
+  "optimizer_steps": 1501,
+  "train_runtime_seconds": 981.6247
+}

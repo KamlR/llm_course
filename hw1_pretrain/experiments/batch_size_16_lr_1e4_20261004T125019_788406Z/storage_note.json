@@ -1,0 +1,4 @@
+{
+  "save_only_model": true,
+  "reason": "Limited server disk space. Previous results retained; current checkpoints omit optimizer state. This reduces checkpoint write time and affects comparisons under a wall-clock budget."
+}

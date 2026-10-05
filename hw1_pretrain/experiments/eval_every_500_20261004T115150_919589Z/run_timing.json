@@ -1,0 +1,7 @@
+{
+  "timeout_limit_seconds": 900,
+  "timeout_trigger_elapsed_seconds": 907.79,
+  "trainer_train_runtime_seconds": 958.9039,
+  "actual_optimizer_steps_per_second_including_evaluation_and_saving": 4.693901025952653,
+  "note": "Trainer train_samples_per_second and train_steps_per_second use the planned full epoch in this version; use actual steps / runtime for this timeout-stopped run."
+}

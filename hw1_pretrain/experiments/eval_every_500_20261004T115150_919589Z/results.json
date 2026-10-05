@@ -1,0 +1,10 @@
+{
+  "experiment_name": "eval_every_500",
+  "best_eval_loss": 6.154300689697266,
+  "best_eval_step": 4501,
+  "best_checkpoint": "checkpoint-4501",
+  "final_eval_loss": 6.154300689697266,
+  "evaluated_model": "лучший сохранённый checkpoint `checkpoint-4501`",
+  "optimizer_steps": 4501,
+  "train_runtime_seconds": 958.9039
+}
