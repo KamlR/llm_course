@@ -1,0 +1,31 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+Packing train dataset:   0%|          | 0/244768 [00:00<?, ? examples/s]Packing train dataset:   4%|▍         | 11000/244768 [00:00<00:02, 98294.02 examples/s]Packing train dataset:   9%|▉         | 23000/244768 [00:00<00:02, 102011.42 examples/s]Packing train dataset:  14%|█▍        | 35000/244768 [00:00<00:02, 103451.93 examples/s]Packing train dataset:  19%|█▉        | 47000/244768 [00:00<00:01, 104195.57 examples/s]Packing train dataset:  24%|██▍       | 59000/244768 [00:00<00:01, 104906.94 examples/s]Packing train dataset:  29%|██▉       | 71000/244768 [00:00<00:01, 105263.59 examples/s]Packing train dataset:  34%|███▍      | 83000/244768 [00:00<00:01, 105219.90 examples/s]Packing train dataset:  39%|███▉      | 95000/244768 [00:00<00:01, 105406.86 examples/s]Packing train dataset:  44%|████▎     | 107000/244768 [00:01<00:01, 105355.31 examples/s]Packing train dataset:  49%|████▊     | 119000/244768 [00:01<00:01, 105324.27 examples/s]Packing train dataset:  54%|█████▎    | 131000/244768 [00:01<00:01, 105555.99 examples/s]Packing train dataset:  58%|█████▊    | 143000/244768 [00:01<00:00, 105434.06 examples/s]Packing train dataset:  63%|██████▎   | 155000/244768 [00:01<00:00, 105665.85 examples/s]Packing train dataset:  68%|██████▊   | 167000/244768 [00:01<00:00, 105867.73 examples/s]Packing train dataset:  73%|███████▎  | 179000/244768 [00:01<00:00, 105579.04 examples/s]Packing train dataset:  78%|███████▊  | 191000/244768 [00:01<00:00, 105435.30 examples/s]Packing train dataset:  83%|████████▎ | 203000/244768 [00:01<00:00, 105609.41 examples/s]Packing train dataset:  88%|████████▊ | 215000/244768 [00:02<00:00, 105632.85 examples/s]Packing train dataset:  93%|█████████▎| 227000/244768 [00:02<00:00, 105801.34 examples/s]Packing train dataset:  98%|█████████▊| 239000/244768 [00:02<00:00, 105954.84 examples/s]Packing train dataset: 100%|██████████| 244768/244768 [00:02<00:00, 102533.68 examples/s]
+{"step": 10, "elapsed_seconds": 15.455796388998351, "step_seconds": 1.388132970998413, "target_tokens": 31521, "warmup": true}
+{'loss': 11.2191, 'grad_norm': 2.59375, 'learning_rate': 1.3499999999999998e-05, 'epoch': 0.01451378809869376}
+{"step": 20, "elapsed_seconds": 29.584715717999643, "step_seconds": 1.40874425200127, "target_tokens": 31779, "warmup": false}
+{'loss': 11.0895, 'grad_norm': 2.8125, 'learning_rate': 2.8499999999999998e-05, 'epoch': 0.02902757619738752}
+{"step": 30, "elapsed_seconds": 43.7328204159985, "step_seconds": 1.4204343479996169, "target_tokens": 32091, "warmup": false}
+{'loss': 10.4474, 'grad_norm': 3.21875, 'learning_rate': 4.3499999999999993e-05, 'epoch': 0.04354136429608128}
+{"step": 40, "elapsed_seconds": 57.915270589999636, "step_seconds": 1.422583821000444, "target_tokens": 32008, "warmup": false}
+{'loss': 9.422, 'grad_norm': 1.1953125, 'learning_rate': 5.85e-05, 'epoch': 0.05805515239477504}
+{"step": 50, "elapsed_seconds": 72.1208092379984, "step_seconds": 1.4238786629994138, "target_tokens": 32081, "warmup": false}
+{'loss': 8.6911, 'grad_norm': 0.9453125, 'learning_rate': 7.35e-05, 'epoch': 0.07256894049346879}
+{"step": 60, "elapsed_seconds": 86.33003915799964, "step_seconds": 1.4294765630002075, "target_tokens": 32150, "warmup": false}
+{'loss': 8.3738, 'grad_norm': 0.52734375, 'learning_rate': 8.849999999999998e-05, 'epoch': 0.08708272859216255}
+{'train_runtime': 90.6226, 'train_loss': 9.799333875141446, 'epoch': 0.09143686502177069}
+{
+  "train_seconds": 90.62187448199984,
+  "optimizer_steps": 63,
+  "target_tokens": 2015858,
+  "tokens_per_second_including_warmup": 22244.71753120058,
+  "warmup_steps": 10,
+  "measured_steps": 53,
+  "measured_seconds": 75.16607809300149,
+  "tokens_per_second": 22566.988235055134,
+  "seconds_per_optimizer_step": 1.418227888547198,
+  "peak_allocated_gib": 40.150208473205566,
+  "peak_reserved_gib": 76.201171875,
+  "validation_loss": 8.216118232933084,
+  "validation_target_tokens": 50694
+}

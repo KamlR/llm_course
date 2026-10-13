@@ -1,0 +1,32 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+You are attempting to use Flash Attention 2 without specifying a torch dtype. This might lead to unexpected behaviour
+{"step": 10, "elapsed_seconds": 17.025316469000245, "step_seconds": 1.3121733070001937, "target_tokens": 31521, "warmup": true}
+{'loss': 11.2191, 'grad_norm': 2.59375, 'learning_rate': 1.3499999999999998e-05, 'epoch': 0.01451378809869376}
+{"step": 20, "elapsed_seconds": 29.311252581999724, "step_seconds": 1.3270053729993379, "target_tokens": 31779, "warmup": false}
+{'loss': 11.0896, 'grad_norm': 2.8125, 'learning_rate': 2.8499999999999998e-05, 'epoch': 0.02902757619738752}
+{"step": 30, "elapsed_seconds": 41.174681762000546, "step_seconds": 1.1865967350004212, "target_tokens": 32091, "warmup": false}
+{'loss': 10.4476, 'grad_norm': 3.21875, 'learning_rate': 4.3499999999999993e-05, 'epoch': 0.04354136429608128}
+{"step": 40, "elapsed_seconds": 53.21308742600013, "step_seconds": 1.1885129570000572, "target_tokens": 32008, "warmup": false}
+{'loss': 9.4229, 'grad_norm': 1.1953125, 'learning_rate': 5.85e-05, 'epoch': 0.05805515239477504}
+{"step": 50, "elapsed_seconds": 65.13254951099952, "step_seconds": 1.1964502259997971, "target_tokens": 32081, "warmup": false}
+{'loss': 8.6925, 'grad_norm': 0.953125, 'learning_rate': 7.35e-05, 'epoch': 0.07256894049346879}
+{"step": 60, "elapsed_seconds": 77.3582772789996, "step_seconds": 1.2011655469996185, "target_tokens": 32150, "warmup": false}
+{'loss': 8.3742, 'grad_norm': 0.53515625, 'learning_rate': 8.849999999999998e-05, 'epoch': 0.08708272859216255}
+{"step": 70, "elapsed_seconds": 89.34740613400027, "step_seconds": 1.2009649410010752, "target_tokens": 32162, "warmup": false}
+{'loss': 8.2979, 'grad_norm': 0.484375, 'learning_rate': 0.00010349999999999998, 'epoch': 0.10159651669085631}
+{'train_runtime': 90.5494, 'train_loss': 9.630309279535858, 'epoch': 0.10304789550072568}
+{
+  "train_seconds": 90.54864505200021,
+  "optimizer_steps": 71,
+  "target_tokens": 2272113,
+  "tokens_per_second_including_warmup": 25092.733289329426,
+  "warmup_steps": 10,
+  "measured_steps": 61,
+  "measured_seconds": 73.52332858299997,
+  "tokens_per_second": 26556.564258319806,
+  "seconds_per_optimizer_step": 1.2053004685737698,
+  "peak_allocated_gib": 25.820602893829346,
+  "peak_reserved_gib": 33.1484375,
+  "validation_loss": 8.167803390296896,
+  "validation_target_tokens": 50694
+}
