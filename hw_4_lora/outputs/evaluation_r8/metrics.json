@@ -1,0 +1,26 @@
+[
+  {
+    "model": "Base",
+    "accuracy": 0.4051948051948052,
+    "macro_f1": 0.37818061095757965,
+    "test_examples": 3080,
+    "invalid_predictions": 202,
+    "without_eos": 0
+  },
+  {
+    "model": "Full FT",
+    "accuracy": 0.9253246753246753,
+    "macro_f1": 0.9260043709176308,
+    "test_examples": 3080,
+    "invalid_predictions": 6,
+    "without_eos": 0
+  },
+  {
+    "model": "LoRA",
+    "accuracy": 0.9266233766233766,
+    "macro_f1": 0.9262241850790641,
+    "test_examples": 3080,
+    "invalid_predictions": 1,
+    "without_eos": 0
+  }
+]

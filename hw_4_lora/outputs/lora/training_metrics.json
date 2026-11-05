@@ -1,0 +1,30 @@
+{
+  "method": "lora",
+  "total_parameters": 1548072448,
+  "base_model_parameters": 1543714304,
+  "trainable_parameters": 4358144,
+  "trainable_percent": 0.28152067467064695,
+  "lora_r": 16,
+  "lora_alpha": 32,
+  "lora_dropout": 0.05,
+  "target_modules": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj"
+  ],
+  "training_wall_seconds": 3253.5435632229783,
+  "timing_scope": "trainer.train including scheduled validation; excludes loading, tokenization and final saving",
+  "peak_gpu_allocated_gib": 4.873762130737305,
+  "peak_gpu_reserved_gib": 13.626953125,
+  "memory_scope": "PyTorch allocations in this process during trainer.train, including model and optimizer",
+  "effective_batch_size": 16,
+  "global_step": 1689,
+  "epoch": 3.0,
+  "train_runtime": 3253.3691,
+  "train_samples_per_second": 8.301,
+  "train_steps_per_second": 0.519,
+  "total_flos": 9.773647217880269e+16,
+  "train_loss": 0.10126943678951884,
+  "final_validation_loss": 0.06798361986875534
+}

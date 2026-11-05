@@ -1,0 +1,36 @@
+{
+  "arguments": {
+    "project_dir": "/home/edu/lora_mavletova",
+    "full_ft_dir": "outputs/full_ft",
+    "lora_dir": "outputs/lora_r8",
+    "output_dir": "outputs/evaluation_r8",
+    "gpu": "1",
+    "batch_size": 16,
+    "max_new_tokens": 32,
+    "manual_examples": 5,
+    "seed": 42,
+    "check_only": false
+  },
+  "base_path": "/home/edu/lora_mavletova/models/Qwen2.5-1.5B-Instruct",
+  "full_ft_dir": "/home/edu/lora_mavletova/outputs/full_ft",
+  "lora_dir": "/home/edu/lora_mavletova/outputs/lora_r8",
+  "test_files_sha256": {
+    "data/test-00000-of-00001.parquet": "1f40f777c33f0edfa6c530ff84fe2878db6490838c12d22d036f626948905341"
+  },
+  "manual_test_row_ids": [
+    48,
+    2966,
+    194,
+    1125,
+    1757
+  ],
+  "generation": "greedy; do_sample=False; num_beams=1",
+  "matching": "case-sensitive exact category match after str.strip(); invalid answers count as errors",
+  "macro_f1": "All 77 classes, zero_division=0",
+  "versions": {
+    "torch": "2.8.0+cu126",
+    "transformers": "4.56.1",
+    "peft": "0.17.1",
+    "datasets": "3.6.0"
+  }
+}

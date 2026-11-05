@@ -1,0 +1,20 @@
+{
+  "method": "full_ft",
+  "total_parameters": 1543714304,
+  "trainable_parameters": 1543714304,
+  "trainable_percent": 100.0,
+  "training_wall_seconds": 2153.013594528893,
+  "timing_scope": "trainer.train including scheduled validation; excludes loading, tokenization and final saving",
+  "peak_gpu_allocated_gib": 14.414863586425781,
+  "peak_gpu_reserved_gib": 25.5703125,
+  "memory_scope": "PyTorch allocations in this process during trainer.train, including model and optimizer",
+  "effective_batch_size": 16,
+  "global_step": 1689,
+  "epoch": 3.0,
+  "train_runtime": 2152.8693,
+  "train_samples_per_second": 12.544,
+  "train_steps_per_second": 0.785,
+  "total_flos": 9.741248189649715e+16,
+  "train_loss": 0.09318180590021038,
+  "final_validation_loss": 0.07997927069664001
+}
