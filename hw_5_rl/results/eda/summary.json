@@ -1,0 +1,62 @@
+{
+  "dataset": "Team-ACE/ToolACE",
+  "dataset_revision": "6bda777c88d21e5a204703c1ee45597a8fa4f734",
+  "data_sha256": "ba12c083fca7e8da48c67ad5b895e495447da7c66e39a2e19742c082e6cb537e",
+  "tokenizer": "Qwen/Qwen3.5-2B",
+  "tokenizer_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "dialogues": 11300,
+  "messages_by_role": {
+    "user": 12452,
+    "assistant": 13819,
+    "tool": 1367
+  },
+  "messages_per_dialogue": {
+    "min": 2,
+    "median": 2.0,
+    "mean": 2.45,
+    "p95": 6.0,
+    "max": 12
+  },
+  "available_tools_per_dialogue": {
+    "min": 0,
+    "median": 3.0,
+    "mean": 3.12,
+    "p95": 6.0,
+    "max": 9
+  },
+  "tool_description_formats": {
+    "json": 10800,
+    "nonstandard": 486,
+    "no_section": 14
+  },
+  "prompt_tokens": {
+    "min": 130,
+    "median": 662.0,
+    "mean": 733.18,
+    "p95": 1414.0,
+    "max": 4507
+  },
+  "response_tokens": {
+    "min": 0,
+    "median": 40.0,
+    "mean": 65.12,
+    "p95": 225.0,
+    "max": 1436
+  },
+  "response_appearance_heuristic": {
+    "structured_like": 10327,
+    "text_after_tool": 1034,
+    "text_after_user": 2453,
+    "empty": 5
+  },
+  "empty_messages": 5,
+  "duplicate_dialogues_beyond_first": 3,
+  "duplicate_conversations_without_system_beyond_first": 18,
+  "prompt_fits_4096_with_1024_reserved_percent": 99.9,
+  "notes": [
+    "Prompt: исходный system с инструментами + история до ответа + generation prompt Qwen без thinking.",
+    "Response: исходный текст ответа без служебных токенов. После RL-конвертации длины пересчитать.",
+    "structured_like — только эвристика по разметке, не число корректных вызовов; text_after_user не равен Irrelevance.",
+    "Дубликаты без system могут иметь разные инструменты. Ничего не удалено из датасета."
+  ]
+}
