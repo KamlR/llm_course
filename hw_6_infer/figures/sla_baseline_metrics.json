@@ -1,0 +1,90 @@
+{
+  "configuration": "baseline",
+  "sla_p90_limit_s": 15,
+  "runs": [
+    {
+      "rpm": 120,
+      "requested_rps": 2.0,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 305.74063180800005,
+      "mean_latency_s": 6.931145518941666,
+      "p90_latency_s": 9.7590210739,
+      "p99_latency_s": 11.13749139752,
+      "successful_requests": 600,
+      "error_requests": 0,
+      "total_requests": 600,
+      "sla_met": true,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-120/profile/profile_export_aiperf.json"
+    },
+    {
+      "rpm": 140,
+      "requested_rps": 2.33333,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 305.266526976,
+      "mean_latency_s": 7.993434603886981,
+      "p90_latency_s": 11.471870435399998,
+      "p99_latency_s": 12.671130932719997,
+      "successful_requests": 699,
+      "error_requests": 0,
+      "total_requests": 699,
+      "sla_met": true,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-140/profile/profile_export_aiperf.json"
+    },
+    {
+      "rpm": 160,
+      "requested_rps": 2.66667,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 307.408443904,
+      "mean_latency_s": 9.1128173332225,
+      "p90_latency_s": 13.0395710217,
+      "p99_latency_s": 14.504260592219998,
+      "successful_requests": 800,
+      "error_requests": 0,
+      "total_requests": 800,
+      "sla_met": true,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-160/profile/profile_export_aiperf.json"
+    },
+    {
+      "rpm": 180,
+      "requested_rps": 3.0,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 308.00800204800004,
+      "mean_latency_s": 10.334332595852057,
+      "p90_latency_s": 14.803565041199999,
+      "p99_latency_s": 16.21208339146,
+      "successful_requests": 899,
+      "error_requests": 0,
+      "total_requests": 899,
+      "sla_met": true,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-180/profile/profile_export_aiperf.json"
+    },
+    {
+      "rpm": 200,
+      "requested_rps": 3.33333,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 307.849341696,
+      "mean_latency_s": 11.502087354974975,
+      "p90_latency_s": 17.044942558,
+      "p99_latency_s": 18.40254030992,
+      "successful_requests": 999,
+      "error_requests": 0,
+      "total_requests": 999,
+      "sla_met": false,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-200/profile/profile_export_aiperf.json"
+    },
+    {
+      "rpm": 220,
+      "requested_rps": 3.66667,
+      "load_duration_s": 300.0,
+      "benchmark_duration_s": 306.929339648,
+      "mean_latency_s": 12.79278695421656,
+      "p90_latency_s": 18.6791390568,
+      "p99_latency_s": 20.763559186,
+      "successful_requests": 1099,
+      "error_requests": 0,
+      "total_requests": 1099,
+      "sla_met": false,
+      "source": "/home/edu/infer_mavletova/results/sla-baseline-220/profile/profile_export_aiperf.json"
+    }
+  ]
+}
